@@ -192,7 +192,6 @@ p {
   grid-template-columns: 6fr 3fr 2fr;
   padding: 1rem;
   align-items: center;
-  padding-left: 0 !important;
 }
 
 #main-nav .container .logo {
@@ -228,6 +227,9 @@ p {
 #main-nav .social i {
   color: #777;
   margin-right: 0.35rem;
+}
+#main-nav .social i:hover {
+  color: var(--dark-color);
 }
 
 /* Showcase */
