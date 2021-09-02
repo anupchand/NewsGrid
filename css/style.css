@@ -303,9 +303,10 @@ p {
   color: #fff;
   clear: both;
   position: relative;
-  bottom: 0;
+  bottom: 0px;
+  left: 0px;
   height: 100%;
-  margin-top: 350px;  
+  margin-top: 346px;  
 }
 
 #main-footer img {
