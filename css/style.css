@@ -172,6 +172,7 @@ p {
   grid-template-columns: 5fr 2fr;
   margin: 2rem 0;
   grid-gap: 1.5rem;
+  height: 100%;
 }
 
 .page-container > *:first-child {
@@ -300,6 +301,11 @@ p {
 #main-footer {
   background: var(--dark-color);
   color: #fff;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  height: 100%;
+  margin-top: 350px;  
 }
 
 #main-footer img {
